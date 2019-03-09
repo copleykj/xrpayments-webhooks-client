@@ -1,0 +1,29 @@
+{
+  "name": "xrpayments-webhooks-client",
+  "version": "1.0.0",
+  "description": "Client for XRPayments Webhooks Rest API @ webhook.xrpayments.co",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "cross-env BABEL_ENV=production babel src --out-dir dist",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "license": "MIT",
+  "author": "Kelly Copley <copleykj@gmail.com>",
+  "devDependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.5.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.15.1",
+    "eslint-plugin-import": "^2.16.0",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "type-check-system": "^3.0.0"
+  }
+}
