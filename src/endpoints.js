@@ -44,7 +44,7 @@ export const webhooksEndpoints = {
     method: 'delete',
     url: '/webhooks/:webhook_id',
     bodyParams: {
-      emails: [String],
+      webhook_id: Number
     },
   }),
 };
