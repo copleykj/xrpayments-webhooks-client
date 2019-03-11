@@ -1,6 +1,6 @@
 # XRPayments Rest API Interface for NodeJS
 
-This package provides a client for interacting with the Rest API at webhook.xrpayments.com
+This package provides a client for interacting with the Rest API at https://webhook.xrpayments.co
 
 ## Installation
 
