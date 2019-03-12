@@ -12,7 +12,7 @@ export const subscriptionsEndpoints = {
     method: "post",
     url: "/subscriptions",
     bodyParams: {
-      Address: String
+      address: String
     }
   }),
   // endpoint definition for deleting a subscription
