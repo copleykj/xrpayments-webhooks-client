@@ -12,7 +12,6 @@
   "author": "Kelly Copley <copleykj@gmail.com>",
   "devDependencies": {
     "@babel/polyfill": "^7.2.5",
-    "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^10.0.1",
     "babel-preset-env": "^1.7.0",
@@ -23,6 +22,7 @@
     "rimraf": "^2.6.3"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "type-check-system": "^3.0.0"
   }
 }
