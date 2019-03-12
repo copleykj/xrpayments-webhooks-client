@@ -18,7 +18,12 @@ XRPayments.setAuthDetails({
   secret: "bWR3ajJSMWxwR3R5Nmd4cmtCaXNBQT09"
 });
 
-const response = await XRPayments.subscriptions();
+try {
+  const response = await XRPayments.subscriptions();
+  console.log(response.data);
+} catch (error) {
+  console.log(error.response.status);
+}
 ```
 
 ## Methods
