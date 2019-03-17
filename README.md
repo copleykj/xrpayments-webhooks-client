@@ -5,13 +5,13 @@ This package provides a client for interacting with the Rest API at https://webh
 ## Installation
 
 ```sh
-$ npm i xrpayments-webhooks-client
+$ npm i @xrpayments/webhooks-client
 ```
 
 ## Basic Usage
 
 ```js
-import XRPayments from "xrpayments-webhooks-client";
+import XRPayments from "@xrpayments/webhooks-client";
 
 XRPayments.setAuthDetails({
   key: "69682cbf-85bd-4507-8cbd-f4ee63fed1dc",

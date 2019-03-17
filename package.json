@@ -1,5 +1,5 @@
 {
-  "name": "xrpayments-webhooks-client",
+  "name": "@xrpayments/webhooks-client",
   "version": "1.0.0",
   "description": "Client for XRPayments Webhooks Rest API @ webhook.xrpayments.co",
   "main": "dist/index.js",
