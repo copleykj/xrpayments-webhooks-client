@@ -90,3 +90,9 @@ const response = await XRPayments.webhooks.delete({
   webhook_id: 4192294
 });
 ```
+
+## Show Some Love
+
+If you like to show some love for this package, you can do so by sending me a tip on the XRP Tipbot App to my twitter handle [@XRPeezy](https://twitter.com/xRPeezy/). You can also scan the QR Code below with the XRP Tipbot App if you don't want to search.
+
+![XRPeexy QR Code](https://gdurl.com/Bq1F)
